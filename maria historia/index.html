@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Mistério da Floresta Encantada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src=imagens/cenario1.jpg alt="Floresta Encantada">
+            <p>Você se aventurou em uma floresta densa e antiga, cheia de mistérios. Ao seguir uma trilha esquecida pelo tempo, encontrou uma cabana coberta por musgo e hera. Dentro, havia um livro antigo e empoeirado que falava sobre uma antiga lenda: a chave para desvendar o segredo da floresta. Agora, você deve escolher seu próximo passo.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a cabana</button>
+            <button class="btn-proximo" data-proximo="2">Seguir mais fundo na floresta</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Dentro da cabana, você encontra símbolos estranhos nas paredes e um mapa indicando a localização de um lago escondido. Dizem que suas águas revelam a verdade para quem ousa olhar.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o mapa até o lago</button>
+            <button class="btn-proximo" data-proximo="4">Deixar a cabana e voltar à entrada da floresta</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Ao seguir mais fundo na floresta, você começa a ouvir sons estranhos, como sussurros no vento. De repente, se depara com uma clareira iluminada por uma luz mágica. No centro, uma árvore gigantesca com inscrições antigas em sua casca.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a árvore mágica</button>
+            <button class="btn-proximo" data-proximo="6">Ignorar a árvore e continuar explorando</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Chegando ao lago, você percebe que suas águas brilham de forma incomum. Ao olhar para o reflexo, uma visão aparece: o espírito guardião da floresta. Ele te oferece duas escolhas.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a ajuda do espírito</button>
+            <button class="btn-proximo" data-proximo="4">Recusar e sair do lago</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src=imagens/cenario2.jpgalt="Caminho de volta na floresta">
+            <p>Você decide que é melhor não arriscar. Ao voltar à entrada da floresta, o mistério permanece, e a sensação de uma aventura inacabada fica em seu coração.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao tocar na árvore mágica, um portal se abre diante de você. Ele parece levar a um reino além do tempo, onde os segredos da floresta estão guardados há séculos.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ignorando a árvore, você continua a explorar, mas logo se perde na densa vegetação. A floresta parece estar viva, e você sente que talvez tenha feito a escolha errada.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para a árvore mágica</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao atravessar o portal, você chega a um reino encantado, onde criaturas místicas e segredos antigos se revelam. Você percebe que sua jornada está apenas começando.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o reino</button>
+            <button class="btn-proximo" data-proximo="10">Retornar ao mundo real</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você decide explorar o reino e encontra um antigo artefato que tem o poder de alterar a realidade. Agora, cabe a você decidir como usá-lo.</p>
+            <button class="btn-proximo" data-proximo="11">Descobrir os poderes do artefato</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao retornar ao mundo real, você sente que algo mudou em você. A floresta e seus mistérios continuam, mas agora você carrega uma nova sabedoria.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar ao reino encantado</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src=imagens/cenario3.jpg alt="Reino Encantado">
+            <p>Você descobre que o artefato pode controlar o fluxo do tempo. Com esse poder, você é capaz de reescrever a história da floresta e desvendar todos os seus segredos.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
